@@ -1,3 +1,12 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
  *         this.val = val;
  *         this.left = left;
  *         this.right = right;
@@ -9,32 +18,20 @@ class Solution {
         if(root==null){
             return true;
         }
-        ArrayList<TreeNode> li=new ArrayList<>();
-        li.add(root);
-        while(li.size()>0){
-            System.out.println();
-            boolean find=check(li);
-            if(find!=true){
-                return false;
-            }
-            int i=0;
-            int size=li.size();
-            ArrayList<TreeNode> li_new=new ArrayList<>();
-            while(i<size){
-                if(li.get(i)!=null){
-                    if(li.get(i).left!=null)
-                        li_new.add(li.get(i).left);
-                    else
-                        li_new.add(null);
-                    
-                    if(li.get(i).right!=null)
-                        li_new.add(li.get(i).right);
-                    else
-                        li_new.add(null);
-                   
-                }
-                 i++;
-            }
-            li=li_new;
-        }
-        return true;
+        if(root.left==null&&root.right==null)
+            return true;
+        if(root.left!=null&&root.right!=null)
+            return isSymmetric(root.left,root.right);
+        return false;
+    }
+    public boolean isSymmetric(TreeNode left,TreeNode right){
+        if(left==null&&right==null)
+            return true;
+        if(left==null||right==null||left.val!=right.val)
+            return false;
+        if(isSymmetric(left.left,right.right)&&
+          isSymmetric(left.right,right.left))
+            return true;
+        return false;
+    }
+}
