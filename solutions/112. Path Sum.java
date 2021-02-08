@@ -21,21 +21,13 @@ class Solution {
     }
     
     public boolean check(TreeNode root, int targetSum){
-        if(root==null&&targetSum==0)
-            return true;
-        if(root==null&&targetSum!=0)
+        if(root==null) return false;
+        if(root.left==null&&root.right==null){
+            if(targetSum-root.val==0){
+                return true;
+            }
             return false;
-        if(root!=null&&root.left==null&&root.right==null&&(targetSum-root.val)==0)
-            return true;
-         if(root!=null&&root.left==null&&root.right==null&&(targetSum-root.val)!=0)
-            return false;
-        if(root.left==null&&root.right!=null)
-            return check(root.right,targetSum-root.val);
-        if(root.right==null&&root.left!=null)
-            return check(root.left,targetSum-root.val);
-        if(check(root.left,targetSum-root.val)||check(root.right,targetSum-root.val)){
-            return true;
         }
-        return false;
+        return check(root.left,targetSum-root.val)||check(root.right,targetSum-root.val);
     }
 }
