@@ -15,3 +15,4 @@
 |112|[ Path Sum](https://leetcode.com/problems/path-sum/)|[Java](./solutions/112.%20Path%20Sum.java)|0 ms|
 |167|[ Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Java](./solutions/167.%20Two%20Sum%20II%20-%20Input%20array%20is%20sorted.java)|0 ms|
 |226|[ Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Java](./solutions/226.%20Invert%20Binary%20Tree.java)|0 ms|
+|235|[ Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Java](./solutions/235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.java)|3 ms|
