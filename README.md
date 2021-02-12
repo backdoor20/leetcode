@@ -20,3 +20,4 @@
 |404|[ Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Java](./solutions/404.%20Sum%20of%20Left%20Leaves.java)|0 ms|
 |501|[ Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|[Java](./solutions/501.%20Find%20Mode%20in%20Binary%20Search%20Tree.java)|1 ms|
 |530|[ Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|[Java](./solutions/530.%20Minimum%20Absolute%20Difference%20in%20BST.java)|0 ms|
+|572|[ Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[Java](./solutions/572.%20Subtree%20of%20Another%20Tree.java)|5 ms|
