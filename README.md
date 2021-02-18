@@ -27,6 +27,7 @@
 |606|[ Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|[Java](./solutions/606.%20Construct%20String%20from%20Binary%20Tree.java)|14 ms|
 |617|[ Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[Java](./solutions/617.%20Merge%20Two%20Binary%20Trees.java)|0 ms|
 |637|[ Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Java](./solutions/637.%20Average%20of%20Levels%20in%20Binary%20Tree.java)|2 ms|
+|671|[ Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|[Java](./solutions/671.%20Second%20Minimum%20Node%20In%20a%20Binary%20Tree.java)|0 ms|
 |700|[ Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Java](./solutions/700.%20Search%20in%20a%20Binary%20Search%20Tree.java)|0 ms|
 |783|[ Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|[Java](./solutions/783.%20Minimum%20Distance%20Between%20BST%20Nodes.java)|0 ms|
 |872|[ Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|[Java](./solutions/872.%20Leaf-Similar%20Trees.java)|0 ms|
