@@ -36,3 +36,4 @@
 |965|[ Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[Java](./solutions/965.%20Univalued%20Binary%20Tree.java)|0 ms|
 |993|[ Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|[Java](./solutions/993.%20Cousins%20in%20Binary%20Tree.java)|0 ms|
 |1022|[ Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[Java](./solutions/1022.%20Sum%20of%20Root%20To%20Leaf%20Binary%20Numbers.java)|0 ms|
+|1143|[ Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[Java](./solutions/1143.%20Longest%20Common%20Subsequence.java)|14 ms|
